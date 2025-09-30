@@ -14,7 +14,7 @@ fi
 
 # Download AzureCLI Wrapper
 echo "Downloading AzureCLI Wrapper from GitHub"
-curl --insecure https://raw.githubusercontent.com/abeckDev/MobaXtermAzureCLI/master/AzureCli.sh --output /usr/bin/az
+curl --insecure https://raw.githubusercontent.com/tsk902000/MobaXtermAzureCLI/master/AzureCli.sh --output /usr/bin/az
 
 # Making it executable
 chmod +x /usr/bin/az
